@@ -141,6 +141,24 @@ header .links>i {
 }
 
 .content-btn {
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.content-des h3 {
     font-size: 18px;
     font-weight: 600;
+    color: #161616;
+}
+
+.time-rate {
+    color: #161616;
+    opacity: 70%;
+}
+
+.time-rate span {
+    padding-right: 30px;
 }
