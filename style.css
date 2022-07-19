@@ -112,7 +112,7 @@ header .links>i {
     flex-direction: column;
     justify-content: center;
     border-radius: 15px;
-    margin: 24px;
+    margin: 0px 24px;
 
 
 }
@@ -180,6 +180,23 @@ header .links>i {
 .vs {
     width: 20px;
     margin: 0 auto;
+}
+
+.match-des {
+    text-align: center;
+}
+
+.contents {
+    padding: 53px 30px;
+    border: 1px solid gray;
+}
+
+.match-des h4 {
+    font-size: 20px;
+}
+
+.match-des p {
+    color: #4D4D4D;
 }
 
 
