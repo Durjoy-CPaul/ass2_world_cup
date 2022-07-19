@@ -247,3 +247,42 @@ footer hr {
 
     padding-bottom: 30px;
 }
+
+/* responsive making */
+@media only screen and (max-width:688px) {
+    header {
+        display: block;
+        margin: 40px 20px;
+
+
+    }
+
+    .half {
+        width: 70%;
+    }
+
+    .header-part {
+        padding: 28px 53px;
+
+
+    }
+
+    .header-title {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .header-des {
+        font-size: 14px;
+    }
+
+    .header-bannar img {
+        width: 70%;
+    }
+
+    main,
+    footer {
+        display: none;
+    }
+
+}
