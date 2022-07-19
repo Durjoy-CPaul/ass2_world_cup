@@ -162,6 +162,27 @@ header .links>i {
     padding-right: 30px;
 }
 
+.img-parts {
+    width: 252px;
+    height: 56.18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+
+}
+
+
+.img-parts>div>img {
+    width: 93.04px;
+    height: 54.42px;
+}
+
+.vs {
+    width: 20px;
+    margin: 0 auto;
+}
+
+
 /* footer 
  */
 footer {
