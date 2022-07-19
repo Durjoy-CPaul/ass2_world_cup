@@ -56,3 +56,37 @@ header {
     color: #ffffff;
     border-radius: 5px;
 }
+
+/* header animation part  */
+@keyframes head-anim {
+    0% {
+
+
+        transform: translate(0px, 0px);
+    }
+
+    50% {
+
+
+        transform: translate(2px, 0px);
+
+    }
+
+    80% {
+
+
+        transform: translate(2px, 0px);
+    }
+
+
+    100% {
+
+
+        transform: translate(5px, 0px);
+
+    }
+}
+
+header .links>i {
+    animation: head-anim 1s ease-in-out 2s 30 normal;
+}
