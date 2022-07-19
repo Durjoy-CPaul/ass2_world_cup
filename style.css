@@ -5,10 +5,9 @@
 
 }
 
-/* body {
-    width: 1600px;
-    margin: 0 auto;
-} */
+body {
+    margin: 0;
+}
 
 /* header part  */
 header {
@@ -161,4 +160,43 @@ header .links>i {
 
 .time-rate span {
     padding-right: 30px;
+}
+
+/* footer 
+ */
+footer {
+    background-color: #161616;
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.goal {
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+footer hr {
+    opacity: 10%;
+    width: 1320px;
+
+}
+
+
+
+.footer-links a,
+.social-media a {
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 16px;
+    padding: 0px 20px;
+    font-weight: 500;
+}
+
+.social-media,
+.footer-links {
+
+    padding-bottom: 30px;
 }
