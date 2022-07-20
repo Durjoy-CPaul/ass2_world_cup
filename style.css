@@ -113,6 +113,9 @@ header .links>i {
     justify-content: center;
     border-radius: 15px;
     margin: 0px 24px;
+    flex-basis: 312px;
+    flex-grow: 0;
+    flex-shrink: 0;
 
 
 }
@@ -395,6 +398,9 @@ footer hr {
         width: 100%;
         height: auto;
         background-color: white;
+        flex-basis: auto;
+        flex-grow: 0;
+        flex-shrink: 0;
 
     }
 
