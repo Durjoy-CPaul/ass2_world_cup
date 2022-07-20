@@ -275,6 +275,7 @@ footer hr {
 
     .header-bannar {
         align-self: center;
+        text-align: center;
     }
 
     .header-title {
@@ -331,5 +332,52 @@ footer hr {
         padding-top: 9px;
     }
 
+}
+
+/* for tablet */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    header {
+        margin: 50px;
+    }
+
+    .header-part {
+        padding: 28px 30px;
+        text-align: left;
+        margin-bottom: 30px;
+
+
+    }
+
+    .header-bannar {
+        align-self: center;
+    }
+
+    .header-title {
+        font-size: 40px;
+
+    }
+
+    .header-des {
+        font-size: 14px;
+        margin-bottom: 20px;
+
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+
+    }
+
+
+    .header-bannar img {
+        width: 233px;
+        height: 245px;
+    }
+
+    main,
+    footer {
+        display: none;
+    }
 
 }
