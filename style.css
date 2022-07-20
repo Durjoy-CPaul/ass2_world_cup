@@ -284,8 +284,15 @@ footer hr {
 
     .header-des {
         font-size: 14px;
+        width: 258px;
+        height: 40px;
+
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
 
     }
+
 
     .header-bannar img {
         width: 233px;
