@@ -299,7 +299,33 @@ footer hr {
         height: 245px;
     }
 
-    main,
+    .main-container {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        margin-top: 0;
+
+    }
+
+    .options {
+        background-color: white;
+    }
+
+    .options .button {
+        border: 1px solid rgba(128, 128, 128, 0.52);
+
+    }
+
+    .content-box {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content-box .content {
+        border: 1px solid rgba(128, 128, 128, 0.319);
+        border-radius: 10px;
+        padding: 10px;
+    }
+
     footer {
         display: none;
     }
