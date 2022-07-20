@@ -256,6 +256,7 @@ footer hr {
 
         flex-direction: column;
         margin: 40px 20px;
+        align-items: center;
 
 
     }
@@ -266,9 +267,14 @@ footer hr {
 
     .header-part {
         padding: 28px 53px;
+        text-align: center;
 
 
 
+    }
+
+    .header-bannar {
+        align-self: center;
     }
 
     .header-title {
