@@ -326,8 +326,10 @@ footer hr {
         padding: 10px;
     }
 
-    footer {
-        display: none;
+    .footer-links a {
+        display: block;
+        padding-top: 10px;
     }
+
 
 }
